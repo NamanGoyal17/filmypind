@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
+*{
+    font-family: 'Silkscreen', cursive;
+}
+
+body{
+    background-color: black;
+}
+
+body h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+body input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+body #mera-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border: none;
+    background-color: aqua;
+    width: 10%;
+    padding: 10px;
+    margin-bottom: 5%;
+    border-radius: 40px;
+}
+
+body #mera-button:hover{
+    color:#fff;
+    box-shadow: 5px 5px 5px 5px #fff solid;
+}
+.wrapper{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    /* justify-content:center;
+    align-items: center; */
+}
+
+.container{
+    display:flex;
+    flex-direction:column;
+    
+}
+
+input#hello{
+    border-radius: 40px;
+}
+
+.cont-1,.cont-2{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+.cont-1{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.cont-1 p{
+    margin-right: 3%;
+}
+
+.cont-1 a{
+    margin-right: 3%;
+}
+
+
+
+.cont-3{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    color: #fff;
+    margin-bottom: 8%;
+}
+
+input:active{
+    color: red;
+}
+
+/* Styling for the popup */
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .popup-content {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    display: flex;
+    color: red;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .close-popup {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+.favourite{
+    /* background-color:black;
+     */
+    background-color: transparent;
+    border:0;
+    font-size: 1.5rem;
+    margin-bottom:10px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3%;
+  }
+  
+  .header h1 {
+    margin: 0 auto;
+    color: #fff;
+  }
+  
+  .header a {
+    position: absolute;
+    text-decoration: none;
+    margin-left: 80%; 
+    margin-right: 2%;
+    color: #000;
+    background-color: aqua;
+    padding: 15px;
+    border-radius: 40px;
+  }
+  
