@@ -5,6 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <title>FilmyPind</title>
+    <style>
+        /* YE YAHA PAR MENE RESPONSIVE KA CODE LIKH DIYA HAI */
+        /*DEKH KAR CHECK KAR LO */
+        @media screen and (max-width: 768px) {
+            body input[type="search"] {
+                width: 80%;
+            }
+
+            body #mera-button {
+                width: 30%;
+            }
+
+            .wrapper {
+                grid-template-columns: repeat(1, 1fr);
+            }
+        }
+
+        @media screen and (max-width: 480px) {
+            body input[type="search"] {
+                width: 100%;
+            }
+
+            body #mera-button {
+                width: 50%;
+            }
+        }
+    </style>
 </head>
 <body>
     <div class="header">
